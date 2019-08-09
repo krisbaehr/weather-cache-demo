@@ -17,6 +17,8 @@ app.get('/', function (request, response) {
 });
 
 console.log(`Magic happens on port 3000`);
+console.log(`Try this: http://localhost:3000?city=Syracuse&state=NE&degreeType=F`);
+
 app.listen(3000);
 
 function getWeather(request: Express.Request, response: Express.Response) {
